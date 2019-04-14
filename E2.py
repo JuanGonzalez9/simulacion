@@ -27,7 +27,6 @@ x = -log(1-u) / l
 print('Media de la muestra: ',stats.mean(x))
 #Varianza 
 print('Varianza de la muestra: ',stats.variance(x))
-print('Varianza de la muestra: ',stats.pvariance(x))
 #Histograma resultado
 plt.subplot(122)
 plt.title('Histograma de X')
