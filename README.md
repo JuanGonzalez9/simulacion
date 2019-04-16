@@ -8,10 +8,11 @@ TPS DE SIMULACION
  
  3.Revisar
  
- 4.Ya se como hacerlo, despues lo hago
+ 4.Ya se como hacerlo, despues lo hago (juan)
+ 5.Facil, despues lo hago (juan)
  
- 5.
- 6.
+ 6.(dalma) falta algo?
+ 
  7.
  8.
  9.
