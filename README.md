@@ -3,8 +3,11 @@ TPS DE SIMULACION
  EJ:
  
  1.Listo
+ 
  2.Casi, falta cambiar la uniforme por la del ej1
+ 
  3.Revisar
+ 
  4.
  5.
  6.
