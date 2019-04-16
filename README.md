@@ -8,7 +8,8 @@ TPS DE SIMULACION
  
  3.Revisar
  
- 4.
+ 4.Ya se como hacerlo, despues lo hago
+ 
  5.
  6.
  7.
