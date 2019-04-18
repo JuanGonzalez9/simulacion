@@ -38,7 +38,7 @@ plt.hist(z2)
 z3 = z1+z2
 plt.subplot(235)
 plt.title('Z3')
-plt.hist(z3)
+plt.hist(z3,80)
 plt.show()
 plt.clf()
 

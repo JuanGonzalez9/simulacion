@@ -17,7 +17,7 @@ plt.xlim(-2, 2)
 plt.ylim(-2, 2)
 #plt.scatter(x[interior],y[interior])
 plt.plot(x[interior], y[interior], 'b.')
-#plt.plot(x[exterior], y[exterior], 'r.')
+plt.plot(x[exterior], y[exterior], 'r.')
 plt.title('Circulo de radio 1')
 plt.grid(True)
 
