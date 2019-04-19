@@ -14,7 +14,8 @@ TPS DE SIMULACION
  
  6.(dalma) falta algo?
  
- 7.
+ 7.Listo (falta el análisis de los gráficos)
+
  8.
  9.
  10.
