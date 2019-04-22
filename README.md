@@ -8,7 +8,7 @@ TPS DE SIMULACION
  
  3.Revisar varianza, la media esta bien
  
- 4.Ya se como hacerlo, despues lo hago (juan)
+ 4.Ya esta hecho, falta subirlo
 
  5.Listo
  
@@ -16,6 +16,7 @@ TPS DE SIMULACION
  
  7.Listo (falta el análisis de los gráficos)
 
- 8.
+ 8.Ya se como se hace (juan)
+ 
  9.
  10.
