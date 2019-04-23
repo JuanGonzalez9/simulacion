@@ -6,7 +6,7 @@ TPS DE SIMULACION
  
  2.Listo
  
- 3.Revisar varianza, la media esta bien
+ 3.Listo
  
  4.Listo
 
