@@ -19,4 +19,4 @@ TPS DE SIMULACION
  8. Listo
 
  9.
- 10.
+ 10. Listo
