@@ -6,8 +6,9 @@ z1 = generarNormal1(100000)
 
 # Histogramas
 plt.figure(figsize=(9,6))
-plt.title('Z1')
-plt.hist(z1,80)
+plt.title('Histograma de Z Normal(0,1)')
+plt.hist(z1,80,facecolor='blue', alpha=0.5)
+plt.savefig("Histograma-E3.png",bbox_inches='tight')
 plt.show()
 plt.clf()
 

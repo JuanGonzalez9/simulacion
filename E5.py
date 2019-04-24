@@ -20,5 +20,8 @@ for x in range(0,CANT_MUESTRAS):
                 else:
                     y.append(5)
 
+plt.title('Histograma resultado')
 plt.hist(y, 5, facecolor='blue', alpha=0.5)
+plt.grid(True)
+plt.savefig("Histograma-E5.png")
 plt.show()

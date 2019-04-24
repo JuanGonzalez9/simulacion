@@ -24,4 +24,5 @@ print('Media de la muestra: ',stats.mean(valores2))
 
 num_bins = 40
 n, bins, patches = plt.hist(valores2, num_bins, facecolor='blue', alpha=0.5)
+plt.savefig("Histograma-E1.png",bbox_inches='tight')
 plt.show()

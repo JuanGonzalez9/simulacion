@@ -3,7 +3,7 @@ from Funciones import GCL_uniforme,generar
 import matplotlib.pyplot as plt
 from scipy.stats import chisquare
 
-cant_muestras = 100000
+cant_muestras = 1000
 alfa = 0.20000
 beta = 0.50000
 
@@ -24,12 +24,14 @@ while (i < cant_muestras):
 p = beta - alfa
 gapMax = int (np.max(gaps))
 
+plt.title('Histograma de la distribución de las longitudes de gaps')
 plt.hist(gaps, gapMax)
+plt.savefig("Histograma-E9.png")
 plt.show()
 
-#esperado = np.zeros(cant_muestras)
-#for x in range(0,cant_muestras):
- #      esperado[x] = p * ((1-p)**(x))
+esperado = np.zeros(cant_muestras)
+for x in range(0,cant_muestras):
+       esperado[x] = p * ((1-p)**(x))
 
-#test = chisquare(gaps,esperado,0.01)
-#print(test)
+test = chisquare(gaps,esperado,0.1)
+print(test)
