@@ -5,6 +5,7 @@ from Funciones import generarNormal1
 z1 = generarNormal1(100000)
 
 # Histogramas
+plt.figure(figsize=(9,6))
 plt.title('Z1')
 plt.hist(z1,80)
 plt.show()
