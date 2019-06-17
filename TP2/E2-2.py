@@ -1,4 +1,6 @@
 from math import factorial
+import random
+import matplotlib.pyplot as plt
 
 def numero_combinaciones(m, n):
     """Calcula y devuelve el número de combinaciones
@@ -24,7 +26,25 @@ for i in range(size):
             if i != 1:
                 mDeTransicion[i][j] /= (i - 1)
 
-print(mDeTransicion[0])
+# simulacion
+pasos = 100000
+posicion = 0 #posicionInicial --> 0 clientes
+cantClientes = [posicion]
+
+for j in range(pasos):
+    nRandom = random.random()
+    suma = 0
+    for i in range(size):
+        suma += mDeTransicion[posicion][i]
+        if suma > nRandom:
+            posicion = i
+            cantClientes.append(i)
+            break
+
+num_bins = 50
+n, bins, patches = plt.hist(cantClientes, num_bins, facecolor='blue', alpha=0.5)
+plt.savefig("TP2-E2.png",bbox_inches='tight')
+plt.show()
 
 
 
