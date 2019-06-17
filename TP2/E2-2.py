@@ -27,7 +27,7 @@ for i in range(size):
                 mDeTransicion[i][j] /= (i - 1)
 
 # simulacion
-pasos = 100000
+pasos = 100
 posicion = 0 #posicionInicial --> 0 clientes
 cantClientes = [posicion]
 
@@ -41,10 +41,17 @@ for j in range(pasos):
             cantClientes.append(i)
             break
 
-num_bins = 50
-n, bins, patches = plt.hist(cantClientes, num_bins, facecolor='blue', alpha=0.5)
-plt.savefig("TP2-E2.png",bbox_inches='tight')
+#Grafico de lineas
+plt.plot(cantClientes)   # Dibuja el gráfico
+plt.title("Evolución del sistema")   # Establece el título del gráfico
+plt.xlabel("Cantidad de observaciones")   # Establece el título del eje x 
+plt.ylabel("Cantidad de clientes")   # Establece el título del eje y
+plt.savefig("TP2-E2Linea.png",bbox_inches='tight')
 plt.show()
+#num_bins = 50
+#n, bins, patches = plt.hist(cantClientes, num_bins, facecolor='blue', alpha=0.5)
+#plt.savefig("TP2-E2.png",bbox_inches='tight')
+#plt.show()
 
 
 
