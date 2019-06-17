@@ -18,8 +18,8 @@ u = GCL_uniforme(cantMuestras)
 #Histograma de la muestra uniforme
 plt.figure()
 plt.subplot(121)
-plt.title('Histograma de U')
-plt.hist(u,40)
+plt.title('Histograma de U uniforme')
+plt.hist(u,40,facecolor='blue', alpha=0.5)
 plt.grid(True)
 
 #transformacion inversa
@@ -31,7 +31,8 @@ print('Media de la muestra: ',stats.mean(x))
 print('Varianza de la muestra: ',stats.variance(x))
 #Histograma resultado
 plt.subplot(122)
-plt.title('Histograma de X')
-plt.hist(x,150)
+plt.title('Histograma de X exponencial')
+plt.hist(x,150,facecolor='blue', alpha=0.5)
 plt.grid(True)
+plt.savefig("Histograma-E2.png",bbox_inches='tight')
 plt.show()

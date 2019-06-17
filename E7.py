@@ -18,6 +18,7 @@ valores_y.insert(0,semilla)
 del valores_y[len(valores_y)-1]
 
 plt.plot(valores_x, valores_y, 'ro')
+plt.savefig("grafico2D-E7.png")
 plt.show()
 
 ax = plt.axes(projection='3d')
@@ -25,4 +26,5 @@ zdata = valores_z
 xdata = valores_x
 ydata = valores_y
 ax.scatter3D(xdata, ydata, zdata)
+plt.savefig("grafico3D-E7.png")
 plt.show()
