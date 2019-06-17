@@ -41,10 +41,23 @@ for j in range(pasos):
             cantClientes.append(i)
             break
 
-num_bins = 50
-n, bins, patches = plt.hist(cantClientes, num_bins, facecolor='blue', alpha=0.5)
-plt.savefig("TP2-E2.png",bbox_inches='tight')
-plt.show()
+# num_bins = 50
+# n, bins, patches = plt.hist(cantClientes, num_bins, facecolor='blue', alpha=0.5)
+# plt.savefig("TP2-E2.png",bbox_inches='tight')
+# plt.show()
 
+ceros = 0
+for i in range(pasos):
+    if cantClientes[i] == 0:
+        ceros += 1
 
+print("El porcentaje de tiempo sin clientes es ", ceros/pasos)
+
+mayorACuarenta = 0
+for i in range(pasos):
+    if cantClientes[i] > 40:
+        mayorACuarenta += 1
+
+print("El porcentaje de tiempo con mas de 40 clientes es ", mayorACuarenta/pasos)
+#da aproximadamente 22% entonces no es recomendable el nuevo servidor
 
