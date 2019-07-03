@@ -40,5 +40,6 @@ for x in range(cantInstrucciones):
     tiempoTotal = max(tLlegada[x],tiempoTotal) + tEjecucion
 
 print(tiempoTotal)
+print("jajaja")
 
 
